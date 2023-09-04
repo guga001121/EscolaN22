@@ -12,7 +12,7 @@ namespace Escola_POO_BASE.Classes
         #region Propriedades
         public int Id { get; set; }
         public string Nome { get; set; }
-        public DateTime DtNascimento { get; set; }
+        public DateTime  DtNascimento { get; set; }
         public string Email { get; set; }
         public string Senha { get; set; }
         public bool Ativo { get; set; }
